@@ -45,4 +45,4 @@ data:
   defaultDeviceType: intel-nuc
   supportedDeviceTypes:
     - intel-nuc
-version: "1.10.11"
+version: "1.10.15"
