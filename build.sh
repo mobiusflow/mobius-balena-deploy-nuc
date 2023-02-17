@@ -8,6 +8,6 @@ echo "Core Version"${corever}
 
 sed -i -e 's/version: .*/version: \"'$buildver'\"/g' ./balena.yml
 rm -f ./balena.yml-e
-sed -i -e 's/balena_up_mobiusflow-le.*/balena_nuc_mobiusflow-le:'$buildver\\_$corever'/g' ./docker-compose.yml
-sed -i -e 's/balena_up_manage.*/balena_nuc_manage:'$buildver'/g' ./docker-compose.yml
+sed -i -e 's/balena_nuc_mobiusflow-le.*/balena_nuc_mobiusflow-le:'$buildver\\_$corever'/g' ./docker-compose.yml
+sed -i -e 's/balena_nuc_manage.*/balena_nuc_manage:'$buildver'/g' ./docker-compose.yml
 rm -f ./docker-compose.yml-e
