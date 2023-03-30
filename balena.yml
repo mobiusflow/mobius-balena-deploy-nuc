@@ -53,4 +53,4 @@ data:
   defaultDeviceType: intel-nuc
   supportedDeviceTypes:
     - intel-nuc
-version: "1.15.0-beta.9"
+version: "1.15.0"
